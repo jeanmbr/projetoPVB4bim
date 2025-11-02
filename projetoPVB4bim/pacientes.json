@@ -1,0 +1,46 @@
+[
+,
+]
+
+
+
+
+
+
+
+
+
+
+
+,
+    {
+        "Id": 2,
+        "Nome": "Jean",
+        "Peso (Kg)": 123,
+        "Altura (m)": 1.78,
+        "IMC": 38.82086,
+        "Classificação": "Obesidade Grau II"
+    }
+]
+
+
+,
+    {
+        "Id": 3,
+        "Nome": "Baruel",
+        "Peso (Kg)": 260,
+        "Altura (m)": 1.67,
+        "IMC": 93.22672,
+        "Classificação": "Obesidade Grau III"
+    }
+]
+,
+    {
+        "Id": 4,
+        "Nome": "BIBITREM",
+        "Peso (Kg)": 299,
+        "Altura (m)": 1.9,
+        "IMC": 82.82549,
+        "Classificação": "Obesidade Grau III"
+    }
+]

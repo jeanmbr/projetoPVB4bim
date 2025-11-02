@@ -1,0 +1,10 @@
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\bin\Debug\projetoPVB4bim.exe.config
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\bin\Debug\projetoPVB4bim.exe
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\bin\Debug\projetoPVB4bim.pdb
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.csproj.AssemblyReference.cache
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.Form1.resources
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.Properties.Resources.resources
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.csproj.GenerateResource.cache
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.csproj.CoreCompileInputs.cache
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.exe
+C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\obj\Debug\projetoPVB4bim.pdb

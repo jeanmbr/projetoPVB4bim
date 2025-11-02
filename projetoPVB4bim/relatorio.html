@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de IMC</title>
+    <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <center><h2>Análise de Classificação do Índice de Massa Corporal</h2></center>
+    <center><div id='myDiv' style="width: 500px; height:500px;">Gráfico de Classificação</div></center>
+    
+    <div id='data-table'>
+        <center><h3>Dados de Registros</h3></center>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Peso (Kg)</th>
+                    <th>Altura (m)</th>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>2</td><td>Jean</td><td>123.00</td><td>1.78</td><td>38.82</td><td>Obesidade Grau II</td></tr>
+<tr><td>3</td><td>Baruel</td><td>260.00</td><td>1.67</td><td>93.23</td><td>Obesidade Grau III</td></tr>
+<tr><td>4</td><td>BIBITREM</td><td>299.00</td><td>1.90</td><td>82.83</td><td>Obesidade Grau III</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script>
+        var data =
+        [
+            {
+                type: 'scatterpolar',
+                r: [0, 0, 0, 0, 1, 2],
+                theta: ['Magreza', 'Saudável', 'Sobrepeso', 'OBG-I', 'OBG-II', 'OBG-III'],
+                fill: 'toself'
+            }
+        ];
+        var layout = 
+        {
+            polar: {
+                radialaxis: {
+                    visible: true,
+                    range: [0, 50]
+                }
+            },
+            showlegend: false
+        };
+        Plotly.newPlot("myDiv", data, layout);
+    </script>
+</body>
+</html>
