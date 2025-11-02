@@ -21,7 +21,7 @@ namespace projetoPVB4bim
         {
             InitializeComponent();
         }
-        string filePath = @"C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\pacientes.json";
+        string filePath = @"C:\pacientes.json";
 
         private void buttonInserir_Click(object sender, EventArgs e)
         {
@@ -611,8 +611,8 @@ namespace projetoPVB4bim
 
         private void buttonHtml_Click(object sender, EventArgs e)
         {
-            string filePath = @"C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\pacientes.json";
-            string reportPath = @"C:\Users\jeanm\OneDrive\Desktop\projetoPVB4bim\projetoPVB4bim\relatorio.html";
+            string filePath = @"C:\pacientes.json";
+            string reportPath = @"C:\relatorio.html";
 
             int[] imcCounts = new int[6];
             string tableRows = "";
